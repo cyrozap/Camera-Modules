@@ -1,4 +1,5 @@
 gerbers
 *.bak
+*.bck
 *.net
 *-cache.lib
