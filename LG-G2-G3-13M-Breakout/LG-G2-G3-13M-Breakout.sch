@@ -60,29 +60,29 @@ Text Label 2700 2000 1    60   ~ 0
 +1V8_13M_VCM
 Text Label 2900 2000 1    60   ~ 0
 +2V8_OIS_DIG
-Text Label 4400 3700 0    60   ~ 0
+Text Label 4500 3700 0    60   ~ 0
 DATA1_P
-Text Label 4400 3800 0    60   ~ 0
+Text Label 4500 3800 0    60   ~ 0
 DATA1_N
-Text Label 4400 3900 0    60   ~ 0
+Text Label 4500 3900 0    60   ~ 0
 DATA0_P
-Text Label 4400 4000 0    60   ~ 0
+Text Label 4500 4000 0    60   ~ 0
 DATA0_N
-Text Label 4400 4100 0    60   ~ 0
+Text Label 4500 4100 0    60   ~ 0
 CLK_P
-Text Label 4400 4200 0    60   ~ 0
+Text Label 4500 4200 0    60   ~ 0
 CLK_N
 Text Label 3000 2000 1    60   ~ 0
 +2V8_OIS_ANA
 Text Label 3200 2000 1    60   ~ 0
 +2V7_13M_ANA
-Text Label 4400 3600 0    60   ~ 0
+Text Label 4500 3600 0    60   ~ 0
 DATA2_N
-Text Label 4400 3500 0    60   ~ 0
+Text Label 4500 3500 0    60   ~ 0
 DATA2_P
-Text Label 4400 3400 0    60   ~ 0
+Text Label 4500 3400 0    60   ~ 0
 DATA3_N
-Text Label 4400 3300 0    60   ~ 0
+Text Label 4500 3300 0    60   ~ 0
 DATA3_P
 Text Label 1900 3800 2    60   ~ 0
 CAM_MCLK
@@ -327,25 +327,25 @@ Connection ~ 2900 5200
 Wire Wire Line
 	3100 5300 3100 5200
 Wire Wire Line
-	4200 3300 4400 3300
+	4300 3300 4500 3300
 Wire Wire Line
-	4400 3400 4200 3400
+	4500 3400 4300 3400
 Wire Wire Line
-	4200 3500 4400 3500
+	4300 3500 4500 3500
 Wire Wire Line
-	4400 3600 4200 3600
+	4500 3600 4300 3600
 Wire Wire Line
-	4200 3700 4400 3700
+	4300 3700 4500 3700
 Wire Wire Line
-	4400 3800 4200 3800
+	4500 3800 4300 3800
 Wire Wire Line
-	4200 3900 4400 3900
+	4300 3900 4500 3900
 Wire Wire Line
-	4400 4000 4200 4000
+	4500 4000 4300 4000
 Wire Wire Line
-	4200 4100 4400 4100
+	4300 4100 4500 4100
 Wire Wire Line
-	4400 4200 4200 4200
+	4500 4200 4300 4200
 Wire Wire Line
 	1900 3600 2100 3600
 Wire Wire Line
