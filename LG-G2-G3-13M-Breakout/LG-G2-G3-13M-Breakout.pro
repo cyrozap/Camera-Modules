@@ -1,4 +1,4 @@
-update=Tue 23 Feb 2016 12:54:11 PM EST
+update=Thu 21 Jul 2016 12:21:47 AM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=../camera-modules
+LibName30=../library/camera-modules

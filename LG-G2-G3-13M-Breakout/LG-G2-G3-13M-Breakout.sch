@@ -44,147 +44,57 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LG-G2-G3-Rear-Camera P1
-U 1 1 56CC9D01
-P 5600 2900
-F 0 "P1" H 4900 3850 50  0000 L CNN
-F 1 "LG-G2-G3-Rear-Camera" H 6300 3850 50  0000 R CNN
-F 2 "GB042-30S" H 4900 1950 50  0001 L CNN
-F 3 "" H 5450 1850 50  0001 C CNN
-	1    5600 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 2400 4400 2400
-Wire Wire Line
-	4400 2500 4600 2500
-Wire Wire Line
-	4300 3600 4600 3600
-Wire Wire Line
-	6600 3600 6900 3600
-Wire Wire Line
-	6800 2500 6600 2500
-Wire Wire Line
-	6800 2400 6600 2400
-Wire Wire Line
-	6600 2700 6700 2700
-Wire Wire Line
-	6700 2700 6700 3800
-Wire Wire Line
-	6600 3500 6700 3500
-Connection ~ 6700 3500
-Wire Wire Line
-	6700 3200 6600 3200
-Connection ~ 6700 3200
-Wire Wire Line
-	6700 2900 6600 2900
-Connection ~ 6700 2900
-Wire Wire Line
-	4500 3800 4500 2600
-Wire Wire Line
-	4500 2600 4600 2600
-Wire Wire Line
-	4500 2900 4600 2900
-Connection ~ 4500 2900
-Wire Wire Line
-	4500 3200 4600 3200
-Connection ~ 4500 3200
-Wire Wire Line
-	4500 3500 4600 3500
-Connection ~ 4500 3500
-Wire Wire Line
-	4300 3400 4600 3400
-Wire Wire Line
-	4300 3300 4600 3300
-Wire Wire Line
-	4300 3100 4600 3100
-Wire Wire Line
-	4300 3000 4600 3000
-Wire Wire Line
-	4300 2800 4600 2800
-Wire Wire Line
-	4300 2700 4600 2700
-Wire Wire Line
-	6600 3300 6900 3300
-Wire Wire Line
-	6600 3400 6900 3400
-Wire Wire Line
-	6600 3000 6900 3000
-Wire Wire Line
-	6600 3100 6900 3100
-Wire Wire Line
-	6600 2800 6900 2800
-Wire Wire Line
-	6800 2600 6600 2600
-Wire Wire Line
-	6800 2300 6600 2300
-Wire Wire Line
-	6800 2200 6600 2200
-Wire Wire Line
-	4400 2300 4600 2300
-$Comp
-L GND #PWR2
-U 1 1 56CCAB3A
-P 6700 3800
-F 0 "#PWR2" H 6700 3550 50  0001 C CNN
-F 1 "GND" H 6700 3650 50  0000 C CNN
-F 2 "" H 6700 3800 50  0000 C CNN
-F 3 "" H 6700 3800 50  0000 C CNN
-	1    6700 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR1
 U 1 1 56CCAB50
-P 4500 3800
-F 0 "#PWR1" H 4500 3550 50  0001 C CNN
-F 1 "GND" H 4500 3650 50  0000 C CNN
-F 2 "" H 4500 3800 50  0000 C CNN
-F 3 "" H 4500 3800 50  0000 C CNN
-	1    4500 3800
+P 3100 5300
+F 0 "#PWR1" H 3100 5050 50  0001 C CNN
+F 1 "GND" H 3100 5150 50  0000 C CNN
+F 2 "" H 3100 5300 50  0000 C CNN
+F 3 "" H 3100 5300 50  0000 C CNN
+	1    3100 5300
 	1    0    0    -1  
 $EndComp
-Text Label 4500 2300 2    60   ~ 0
+Text Label 1900 3600 2    60   ~ 0
 OIS_RESET_N
-Text Label 4500 2400 2    60   ~ 0
+Text Label 2700 2000 1    60   ~ 0
 +1V8_13M_VCM
-Text Label 4500 2500 2    60   ~ 0
+Text Label 2900 2000 1    60   ~ 0
 +2V8_OIS_DIG
-Text Label 4400 2700 2    60   ~ 0
+Text Label 4400 3700 0    60   ~ 0
 DATA1_P
-Text Label 4400 2800 2    60   ~ 0
+Text Label 4400 3800 0    60   ~ 0
 DATA1_N
-Text Label 4400 3000 2    60   ~ 0
+Text Label 4400 3900 0    60   ~ 0
 DATA0_P
-Text Label 4400 3100 2    60   ~ 0
+Text Label 4400 4000 0    60   ~ 0
 DATA0_N
-Text Label 4400 3300 2    60   ~ 0
+Text Label 4400 4100 0    60   ~ 0
 CLK_P
-Text Label 4400 3400 2    60   ~ 0
+Text Label 4400 4200 0    60   ~ 0
 CLK_N
-Text Label 4400 3600 2    60   ~ 0
+Text Label 3000 2000 1    60   ~ 0
 +2V8_OIS_ANA
-Text Label 6800 3600 0    60   ~ 0
+Text Label 3200 2000 1    60   ~ 0
 +2V7_13M_ANA
-Text Label 6800 3400 0    60   ~ 0
+Text Label 4400 3600 0    60   ~ 0
 DATA2_N
-Text Label 6800 3300 0    60   ~ 0
+Text Label 4400 3500 0    60   ~ 0
 DATA2_P
-Text Label 6800 3100 0    60   ~ 0
+Text Label 4400 3400 0    60   ~ 0
 DATA3_N
-Text Label 6800 3000 0    60   ~ 0
+Text Label 4400 3300 0    60   ~ 0
 DATA3_P
-Text Label 6800 2800 0    60   ~ 0
+Text Label 1900 3800 2    60   ~ 0
 CAM_MCLK
-Text Label 6700 2600 0    60   ~ 0
+Text Label 1900 3900 2    60   ~ 0
 CAM_RESET_N
-Text Label 6700 2500 0    60   ~ 0
+Text Label 3400 2000 1    60   ~ 0
 +1V8_13M_VDDIO
-Text Label 6700 2400 0    60   ~ 0
+Text Label 3600 2000 1    60   ~ 0
 +1V0_VREG_L3
-Text Label 6700 2300 0    60   ~ 0
+Text Label 1900 4000 2    60   ~ 0
 CAM_SCL
-Text Label 6700 2200 0    60   ~ 0
+Text Label 1900 4100 2    60   ~ 0
 CAM_SDA
 Wire Wire Line
 	8800 2200 9000 2200
@@ -323,76 +233,140 @@ GND
 $Comp
 L CONN_02X08 P2
 U 1 1 56DCC951
-P 5650 4750
-F 0 "P2" H 5650 5200 50  0000 C CNN
-F 1 "CONN_02X08" V 5650 4750 50  0000 C CNN
-F 2 "" H 5650 3550 50  0000 C CNN
-F 3 "" H 5650 3550 50  0000 C CNN
-	1    5650 4750
+P 6650 3750
+F 0 "P2" H 6650 4200 50  0000 C CNN
+F 1 "CONN_02X08" V 6650 3750 50  0000 C CNN
+F 2 "" H 6650 2550 50  0000 C CNN
+F 3 "" H 6650 2550 50  0000 C CNN
+	1    6650 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 4400 5400 4400
-Text Label 5300 4400 2    60   ~ 0
+	6200 3400 6400 3400
+Text Label 6300 3400 2    60   ~ 0
 GND
 Wire Wire Line
-	6100 4400 5900 4400
+	7100 3400 6900 3400
 Wire Wire Line
-	5200 4500 5400 4500
-Text Label 5300 4500 2    60   ~ 0
+	6200 3500 6400 3500
+Text Label 6300 3500 2    60   ~ 0
 DATA1_N
 Wire Wire Line
-	6100 4500 5900 4500
+	7100 3500 6900 3500
 Wire Wire Line
-	6100 4600 5900 4600
+	7100 3600 6900 3600
 Wire Wire Line
-	5200 4600 5400 4600
+	6200 3600 6400 3600
 Wire Wire Line
-	5200 4700 5400 4700
+	6200 3700 6400 3700
 Wire Wire Line
-	5200 4800 5400 4800
+	6200 3800 6400 3800
 Wire Wire Line
-	5200 4900 5400 4900
+	6200 3900 6400 3900
 Wire Wire Line
-	5200 5000 5400 5000
+	6200 4000 6400 4000
 Wire Wire Line
-	5200 5100 5400 5100
+	6200 4100 6400 4100
 Wire Wire Line
-	6100 5100 5900 5100
+	7100 4100 6900 4100
 Wire Wire Line
-	6100 5000 5900 5000
+	7100 4000 6900 4000
 Wire Wire Line
-	6100 4900 5900 4900
+	7100 3900 6900 3900
 Wire Wire Line
-	6100 4800 5900 4800
+	7100 3800 6900 3800
 Wire Wire Line
-	6100 4700 5900 4700
-Text Label 5300 4600 2    60   ~ 0
+	7100 3700 6900 3700
+Text Label 6300 3600 2    60   ~ 0
 DATA0_P
-Text Label 5300 4700 2    60   ~ 0
+Text Label 6300 3700 2    60   ~ 0
 GND
-Text Label 5300 4800 2    60   ~ 0
+Text Label 6300 3800 2    60   ~ 0
 CLK_N
-Text Label 5300 4900 2    60   ~ 0
+Text Label 6300 3900 2    60   ~ 0
 DATA2_N
-Text Label 5300 5000 2    60   ~ 0
+Text Label 6300 4000 2    60   ~ 0
 GND
-Text Label 5300 5100 2    60   ~ 0
+Text Label 6300 4100 2    60   ~ 0
 DATA3_P
-Text Label 6000 4400 0    60   ~ 0
+Text Label 7000 3400 0    60   ~ 0
 DATA1_P
-Text Label 6000 4500 0    60   ~ 0
+Text Label 7000 3500 0    60   ~ 0
 GND
-Text Label 6000 4600 0    60   ~ 0
+Text Label 7000 3600 0    60   ~ 0
 DATA0_N
-Text Label 6000 4700 0    60   ~ 0
+Text Label 7000 3700 0    60   ~ 0
 CLK_P
-Text Label 6000 4800 0    60   ~ 0
+Text Label 7000 3800 0    60   ~ 0
 GND
-Text Label 6000 4900 0    60   ~ 0
+Text Label 7000 3900 0    60   ~ 0
 DATA2_P
-Text Label 6000 5000 0    60   ~ 0
+Text Label 7000 4000 0    60   ~ 0
 DATA3_N
-Text Label 6000 5100 0    60   ~ 0
+Text Label 7000 4100 0    60   ~ 0
 GND
+$Comp
+L LG-G2-G3-Rear-Camera P1
+U 1 1 57905A40
+P 3200 3700
+F 0 "P1" H 2400 4950 50  0000 L CNN
+F 1 "LG-G2-G3-Rear-Camera" H 3150 3000 50  0000 C CNN
+F 2 "GB042-30S" H 3150 2900 50  0001 C CNN
+F 3 "" H 3050 2250 50  0001 C CNN
+	1    3200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5200 3500 5200
+Connection ~ 3400 5200
+Connection ~ 3300 5200
+Connection ~ 3200 5200
+Connection ~ 3100 5200
+Connection ~ 3000 5200
+Connection ~ 2900 5200
+Wire Wire Line
+	3100 5300 3100 5200
+Wire Wire Line
+	4200 3300 4400 3300
+Wire Wire Line
+	4400 3400 4200 3400
+Wire Wire Line
+	4200 3500 4400 3500
+Wire Wire Line
+	4400 3600 4200 3600
+Wire Wire Line
+	4200 3700 4400 3700
+Wire Wire Line
+	4400 3800 4200 3800
+Wire Wire Line
+	4200 3900 4400 3900
+Wire Wire Line
+	4400 4000 4200 4000
+Wire Wire Line
+	4200 4100 4400 4100
+Wire Wire Line
+	4400 4200 4200 4200
+Wire Wire Line
+	1900 3600 2100 3600
+Wire Wire Line
+	2100 3800 1900 3800
+Wire Wire Line
+	1900 3900 2100 3900
+Wire Wire Line
+	2100 4000 1900 4000
+Wire Wire Line
+	1900 4100 2100 4100
+Wire Wire Line
+	2700 2000 2700 2200
+Wire Wire Line
+	2900 2200 2900 2000
+Wire Wire Line
+	3000 2000 3000 2200
+Wire Wire Line
+	3200 2200 3200 2000
+Wire Wire Line
+	3400 2000 3400 2200
+Wire Wire Line
+	3600 2200 3600 2000
+NoConn ~ 2100 3400
 $EndSCHEMATC
