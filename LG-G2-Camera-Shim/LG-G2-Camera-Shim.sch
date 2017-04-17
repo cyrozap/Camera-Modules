@@ -90,9 +90,9 @@ CAM_MCLK
 Text Label 6800 3400 2    60   ~ 0
 CAM_RESET_N
 Text Label 6800 3500 2    60   ~ 0
-CAM_SCL_OUT
+CAM_SCL
 Text Label 6800 3600 2    60   ~ 0
-CAM_SDA_OUT
+CAM_SDA
 Text Label 6800 3100 2    60   ~ 0
 OIS_RESET_N
 Text Label 7600 1500 1    60   ~ 0
@@ -155,9 +155,9 @@ CAM_MCLK
 Text Label 1700 3400 2    60   ~ 0
 CAM_RESET_N
 Text Label 1700 3500 2    60   ~ 0
-CAM_SCL_IN
+PHONE_SCL
 Text Label 1700 3600 2    60   ~ 0
-CAM_SDA_IN
+PHONE_SDA
 Text Label 1700 3100 2    60   ~ 0
 OIS_RESET_N
 Text Label 2500 1500 1    60   ~ 0
@@ -174,13 +174,13 @@ Text Label 3400 1500 1    60   ~ 0
 +1V0_VREG_L3
 NoConn ~ 1900 2900
 Text Label 5000 4900 2    60   ~ 0
-CAM_SCL_IN
+PHONE_SCL
 Text Label 5900 4900 0    60   ~ 0
-CAM_SCL_OUT
+CAM_SCL
 Text Label 5000 5000 2    60   ~ 0
-CAM_SDA_IN
+PHONE_SDA
 Text Label 5900 5000 0    60   ~ 0
-CAM_SDA_OUT
+CAM_SDA
 Wire Wire Line
 	9400 2800 9200 2800
 Wire Wire Line
@@ -326,9 +326,9 @@ Wire Wire Line
 Wire Wire Line
 	5500 5700 5300 5700
 Text Label 5300 5600 2    60   ~ 0
-CAM_SDA_OUT
+CAM_SDA
 Text Label 5300 5500 2    60   ~ 0
-CAM_SCL_OUT
+CAM_SCL
 $Comp
 L GND #PWR03
 U 1 1 57908DF4
